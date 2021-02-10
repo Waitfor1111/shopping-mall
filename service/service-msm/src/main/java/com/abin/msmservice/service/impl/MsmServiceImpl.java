@@ -32,7 +32,7 @@ public class MsmServiceImpl implements MsmService {
 
         // TODO 密钥需要修改成自己的
         // 自己的密钥LTAI4G531F8so6gVSZ9GyynT   haym9CgnuhBaNbj4XlBM9OLMZ3SwN4
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4G531F8so6gVSZ9GyynT", "haym9CgnuhBaNbj4XlBM9OLMZ3SwN4");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "AccessKeyID", "AccessKeyPassword");
 
         IAcsClient client = new DefaultAcsClient(profile);
 
@@ -80,7 +80,7 @@ public class MsmServiceImpl implements MsmService {
         if (StringUtils.isEmpty(phone)) return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4G531F8so6gVSZ9GyynT", "haym9CgnuhBaNbj4XlBM9OLMZ3SwN4");
+                DefaultProfile.getProfile("default", "AccessKeyID", "AccessKeyPassword");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定的参数
