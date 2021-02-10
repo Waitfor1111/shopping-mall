@@ -18,7 +18,7 @@ public class Test {
 
     public static void main(String[] args) throws ClientException {
 
-        DefaultAcsClient client = InitObject.initVodClient("LTAI4G531F8so6gVSZ9GyynT", "haym9CgnuhBaNbj4XlBM9OLMZ3SwN4");
+        DefaultAcsClient client = InitObject.initVodClient("", "");
 //
 //        GetPlayInfoRequest request = new GetPlayInfoRequest();
 //        GetPlayInfoResponse response = new GetPlayInfoResponse();
