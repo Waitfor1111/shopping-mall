@@ -29,6 +29,7 @@ public class EduChapterServiceImpl extends ServiceImpl<EduChapterMapper, EduChap
 
     @Override
     public List<ChapterVo> getChapterAndVideo(String courseId) {
+        System.out.println("hello world");
 
         // 1.根据课程id查询所有章节
         QueryWrapper<EduChapter> chapterQueryWrapper = new QueryWrapper();
