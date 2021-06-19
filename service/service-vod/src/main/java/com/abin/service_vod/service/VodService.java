@@ -19,4 +19,8 @@ public interface VodService {
     //#43399 add by heliangxin start
     void test(List<String> videoList);
     //#43399 add by heliangxin end
+
+    //#43399 add by heliangxin start agagin
+    void test1(List<String> videoList);
+    //#43399 add by heliangxin end again
 }
