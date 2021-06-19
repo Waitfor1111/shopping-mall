@@ -15,8 +15,4 @@ public interface VodService {
     String uploadAliyun(MultipartFile file);
 
     void removeBatch(List<String> videoList);
-
-    //#43399 add by heliangxin start
-    void test(List<String> videoList);
-    //#43399 add by heliangxin end
 }
