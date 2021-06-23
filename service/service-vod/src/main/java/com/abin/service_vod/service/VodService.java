@@ -21,4 +21,5 @@ public interface VodService {
     //#43399 add by heliangxin end
 
 
+    void test1(List<String> videoList);
 }
