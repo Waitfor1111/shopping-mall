@@ -62,7 +62,7 @@ public class OssServiceImpl implements OssService {
             String url = "https://" + bucketName + "." + endPoint + "/" + fileName;
 
             return url;
-
+            // 每天进步一点点
         } catch (IOException e) {
             e.printStackTrace();
             return null;
